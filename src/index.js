@@ -1,6 +1,6 @@
+import "./index.css";
 /* import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -16,9 +16,8 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals(); */
 
-// what is JSX
-
-var React = require("react");
+// 1- what is JSX
+/* var React = require("react");
 var ReactDOM = require("react-dom");
 ReactDOM.render(
   <div>
@@ -30,4 +29,25 @@ ReactDOM.render(
 
 var h1 = document.createElement("h1");
 h1.innerHTML = "Hello G";
-document.getElementById("root").appendChild(h1);
+document.getElementById("root").appendChild(h1); */
+
+// Challenge
+// Create react app from scratch
+// it should display h1 heading
+// it should display an unordered list (bullet points)
+// it should contain 3 list elements
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+ReactDOM.render(
+  <div>
+    <h1>JSX Challenge</h1>
+    <ul>
+      <li>element 1</li>
+      <li>element 2</li>
+      <li>element 3</li>
+    </ul>
+  </div>,
+  document.getElementById("root")
+);

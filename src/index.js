@@ -17,6 +17,11 @@ root.render(
 reportWebVitals(); */
 
 // 1- what is JSX
+/* 
+ if you want to write HTML code in Javascript this is called JSX (JSX is a XML-like syntax extension to ECMAScript (the acronym stands for JavaScript
+ XML))
+*/
+
 /* var React = require("react");
 var ReactDOM = require("react-dom");
 ReactDOM.render(
@@ -31,13 +36,13 @@ var h1 = document.createElement("h1");
 h1.innerHTML = "Hello G";
 document.getElementById("root").appendChild(h1); */
 
-// Challenge
+// Challenge 1
 // Create react app from scratch
 // it should display h1 heading
 // it should display an unordered list (bullet points)
 // it should contain 3 list elements
 
-import React from "react";
+/* import React from "react";
 import ReactDOM from "react-dom";
 
 ReactDOM.render(
@@ -48,6 +53,29 @@ ReactDOM.render(
       <li>element 2</li>
       <li>element 3</li>
     </ul>
+  </div>,
+  document.getElementById("root")
+); */
+
+// What is JavaScript Expressions
+/* {
+  Javascript 
+  HTML
+  Javascript
+} */
+// If you want to write JS code inside HTML(JSX) code this is called JavaScript Expressions.
+// NOTE: we don't write JS conditions(Statement) e.g if else
+import React from "react";
+import ReactDOM from "react-dom";
+
+const fName = "Najaf";
+const lName = "Zaman";
+const luckyNumber = 7;
+
+ReactDOM.render(
+  <div>
+    <h1>My Name is {`${fName} ${lName}`}</h1>
+    <p>Your lucky number is {luckyNumber}</p>
   </div>,
   document.getElementById("root")
 );

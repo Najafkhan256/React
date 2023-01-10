@@ -20,7 +20,13 @@ reportWebVitals(); */
 
 var React = require("react");
 var ReactDOM = require("react-dom");
-ReactDOM.render(<h1>Hello G</h1>, document.getElementById("root"));
+ReactDOM.render(
+  <div>
+    <h1>Hello G</h1>
+    <p>This is our paragraph</p>
+  </div>,
+  document.getElementById("root")
+);
 
 var h1 = document.createElement("h1");
 h1.innerHTML = "Hello G";

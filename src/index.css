@@ -11,3 +11,8 @@ code {
   width: 100px;
   object-fit: cover;
 }
+.greeting {
+  font-size: 25px;
+  font-family: cursive;
+  text-align: center;
+}

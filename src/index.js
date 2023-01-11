@@ -129,7 +129,7 @@ ReactDOM.render(
 ); */
 
 // Inline styling
-import React from "react";
+/* import React from "react";
 import ReactDOM from "react-dom";
 
 const fName = "Najaf";
@@ -148,6 +148,39 @@ ReactDOM.render(
   <div>
     <h1 style={customStyle}>My Name is {`${fName} ${lName}`}</h1>
     <p>My lucky number is {luckyNumber}</p>
+  </div>,
+  document.getElementById("root")
+);
+ */
+
+// Challenge 4
+import React from "react";
+import ReactDOM from "react-dom";
+
+const date = new Date();
+const hour = date.getHours();
+var Greeting = ["Morning", "Afternoon", "Evening"];
+
+const customStyle = {
+  color: "",
+};
+
+if (hour < 12) {
+  Greeting = `Good ${Greeting[0]}`;
+  customStyle.color = "red";
+} else if (hour < 18) {
+  Greeting = `Good ${Greeting[1]}`;
+  customStyle.color = "green";
+} else {
+  Greeting = `Good ${Greeting[2]}`;
+  customStyle.color = "blue";
+}
+
+ReactDOM.render(
+  <div>
+    <h1 className="greeting" style={customStyle}>
+      {Greeting}
+    </h1>
   </div>,
   document.getElementById("root")
 );

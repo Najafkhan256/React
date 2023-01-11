@@ -108,7 +108,7 @@ ReactDOM.render(
 
 // challenge 3
 // JSX Atributes and styling
-import React from "react";
+/* import React from "react";
 import ReactDOM from "react-dom";
 ReactDOM.render(
   <div className="image-wrapper" contentEditable="false">
@@ -124,6 +124,30 @@ ReactDOM.render(
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoObXGpvT7mA3y1wWyESlTFkghcBTf6-ocBQ&usqp=CAU"
       alt="noodle 3"
     />
+  </div>,
+  document.getElementById("root")
+); */
+
+// Inline styling
+import React from "react";
+import ReactDOM from "react-dom";
+
+const fName = "Najaf";
+const lName = "Zaman";
+const luckyNumber = 7;
+
+const customStyle = {
+  color: "red",
+  fontSize: "20px",
+  border: "1px solid black",
+};
+
+customStyle.color = "blue";
+
+ReactDOM.render(
+  <div>
+    <h1 style={customStyle}>My Name is {`${fName} ${lName}`}</h1>
+    <p>My lucky number is {luckyNumber}</p>
   </div>,
   document.getElementById("root")
 );

@@ -84,7 +84,7 @@ ReactDOM.render(
 // Created by YOURNAME
 // Copyright 2023
 
-import React from "react";
+/* import React from "react";
 import ReactDOM from "react-dom";
 
 const fName = "Najaf";
@@ -99,9 +99,31 @@ ReactDOM.render(
   <div>
     <p>Created by {`${fName} ${lName}`}</p>
     <p>Copyright {year}</p>
-    {/* <p>Current date {currentDate}</p> */}
+    { <p>Current date {currentDate}</p> }
     <p>day {day}</p>
     <p>day {date}</p>
+  </div>,
+  document.getElementById("root")
+); */
+
+// challenge 3
+// JSX Atributes and styling
+import React from "react";
+import ReactDOM from "react-dom";
+ReactDOM.render(
+  <div className="image-wrapper" contentEditable="false">
+    <img
+      src="https://www.halfbakedharvest.com/wp-content/uploads/2022/03/20-Minute-Red-Curry-Basil-Garlic-Oil-Noodles-1.jpg"
+      alt="noodle 1"
+    />
+    <img
+      src="https://pinchofyum.com/wp-content/uploads/Lo-Mein-Recipe.jpg"
+      alt="noodle 2"
+    />
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoObXGpvT7mA3y1wWyESlTFkghcBTf6-ocBQ&usqp=CAU"
+      alt="noodle 3"
+    />
   </div>,
   document.getElementById("root")
 );

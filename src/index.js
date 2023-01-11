@@ -65,7 +65,7 @@ ReactDOM.render(
 } */
 // If you want to write JS code inside HTML(JSX) code this is called JavaScript Expressions.
 // NOTE: we don't write JS conditions(Statement) e.g if else
-import React from "react";
+/* import React from "react";
 import ReactDOM from "react-dom";
 
 const fName = "Najaf";
@@ -75,7 +75,33 @@ const luckyNumber = 7;
 ReactDOM.render(
   <div>
     <h1>My Name is {`${fName} ${lName}`}</h1>
-    <p>Your lucky number is {luckyNumber}</p>
+    <p>My lucky number is {luckyNumber}</p>
+  </div>,
+  document.getElementById("root")
+); */
+
+// Challenge 2
+// Created by YOURNAME
+// Copyright 2023
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+const fName = "Najaf";
+const lName = "Zaman";
+
+const currentDate = new Date();
+const year = currentDate.getFullYear();
+const day = currentDate.getDay();
+const date = currentDate.getDate();
+
+ReactDOM.render(
+  <div>
+    <p>Created by {`${fName} ${lName}`}</p>
+    <p>Copyright {year}</p>
+    {/* <p>Current date {currentDate}</p> */}
+    <p>day {day}</p>
+    <p>day {date}</p>
   </div>,
   document.getElementById("root")
 );

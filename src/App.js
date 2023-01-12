@@ -1,5 +1,6 @@
 import "./App.css";
-import Heading from "./components/Heading";
+// import Heading from "./components/Heading";
+import Avatar from "./components/ReactProps/Avatar";
 // import Fav from "./components/FavFruits";
 // import PiValues from "./components/PiValues";
 // import ImportExportSolution from "./components/importExportChallenge/ChallengeSol";
@@ -17,7 +18,8 @@ function App() {
       <Heading text="Import and Exports in ES6" />
       <PiValues />
       <ImportExportSolution /> */}
-      <Heading text="Props in React" />
+      {/* <Heading text="Props in React" /> */}
+      <Avatar img="https://picsum.photos/200/300" />
       <ReactProps />
     </div>
   );

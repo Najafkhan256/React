@@ -7,6 +7,7 @@
 body {
   padding: 30px;
   font-family: sans-serif;
+  background-color: rgb(225, 225, 225);
 }
 
 code {
@@ -25,18 +26,44 @@ code {
 
 .card {
   margin-top: 30px;
-}
-.card img {
-  width: 200px;
   height: 200px;
+  width: 300px;
+  position: relative;
+  border-radius: 10px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
   object-fit: cover;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.top {
+  background-color: black;
+  height: 75px;
+  padding: 30px 20px;
+  border-radius: 10px 10px 0px 0px;
+}
+.top .avatar {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.top h3 {
+  color: white;
+}
+
+.content {
+  position: absolute;
+  bottom: 20px;
+  padding: 20px;
 }
 
 .first-card {
   background-color: aquamarine;
 }
 .second-card {
-  background-color: rgb(25, 114, 85);
+  background-color: rgb(85, 200, 161);
 }
 .third-card {
   background-color: rgb(7, 187, 127);

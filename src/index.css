@@ -1,5 +1,11 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
   font-family: sans-serif;
 }
 
@@ -15,4 +21,23 @@ code {
   font-size: 25px;
   font-family: cursive;
   text-align: center;
+}
+
+.card {
+  margin-top: 30px;
+}
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.first-card {
+  background-color: aquamarine;
+}
+.second-card {
+  background-color: rgb(25, 114, 85);
+}
+.third-card {
+  background-color: rgb(7, 187, 127);
 }

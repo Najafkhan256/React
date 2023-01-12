@@ -1,10 +1,11 @@
 import "./App.css";
+import EmojiMedia from "./components/EmojiMedia/EmojiMedia";
 // import Heading from "./components/Heading";
-import Avatar from "./components/ReactProps/Avatar";
+// import Avatar from "./components/ReactProps/Avatar";
 // import Fav from "./components/FavFruits";
 // import PiValues from "./components/PiValues";
 // import ImportExportSolution from "./components/importExportChallenge/ChallengeSol";
-import ReactProps from "./components/ReactProps/ReactProps";
+// import ReactProps from "./components/ReactProps/ReactProps";
 
 // const Fruit = ["Mango", "Banana", "Pine apple", "Apple"];
 // const Hobbies = ["Speaking", "Reading", "Walking"];
@@ -19,8 +20,9 @@ function App() {
       <PiValues />
       <ImportExportSolution /> */}
       {/* <Heading text="Props in React" /> */}
-      <Avatar img="https://picsum.photos/200/300" />
-      <ReactProps />
+      {/* <Avatar img="https://picsum.photos/200/300" />
+      <ReactProps /> */}
+      <EmojiMedia />
     </div>
   );
 }

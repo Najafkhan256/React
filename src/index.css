@@ -6,12 +6,12 @@
 
 body {
   padding: 30px;
-  font-family: sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: rgb(225, 225, 225);
 }
 
 code {
-  font-family: sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .image-wrapper img {
   height: 100px;
@@ -70,4 +70,31 @@ code {
 }
 .third-card {
   background-color: rgb(7, 187, 127);
+}
+
+/* Emoji Media style start here */
+.dictionary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.term {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 20px;
+  height: 300px;
+  text-align: center;
+  max-width: 490px;
+}
+.dictionary .term .emoji {
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.dictionary .term span {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
 }

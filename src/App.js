@@ -6,6 +6,7 @@ import EmojiMedia from "./components/EmojiMedia/EmojiMedia";
 // import PiValues from "./components/PiValues";
 // import ImportExportSolution from "./components/importExportChallenge/ChallengeSol";
 // import ReactProps from "./components/ReactProps/ReactProps";
+// import MapFilterReduce from "./components/MapFilterReduce/MapFilterReduce";
 
 // const Fruit = ["Mango", "Banana", "Pine apple", "Apple"];
 // const Hobbies = ["Speaking", "Reading", "Walking"];
@@ -18,10 +19,11 @@ function App() {
       <Fav Fruit={Hobbies} />
       <Heading text="Import and Exports in ES6" />
       <PiValues />
-      <ImportExportSolution /> */}
-      {/* <Heading text="Props in React" /> */}
-      {/* <Avatar img="https://picsum.photos/200/300" />
-      <ReactProps /> */}
+      <ImportExportSolution /> 
+       <Heading text="Props in React" /> 
+       <Avatar img="https://picsum.photos/200/300" />
+      <ReactProps /> 
+       <MapFilterReduce /> */}
       <EmojiMedia />
     </div>
   );

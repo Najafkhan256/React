@@ -1,6 +1,7 @@
 import "./App.css";
+import DeclarativeImperative from "./components/DeclarativeImperative/DeclarativeImperative";
 // import ConditionalRendering from "./components/ConditionalRendering/ConditionalRendering";
-import Form from "./components/ConditionalRendering/Form";
+// import Form from "./components/ConditionalRendering/Form";
 // import EmojiMedia from "./components/EmojiMedia/EmojiMedia";
 // import Heading from "./components/Heading";
 // import Avatar from "./components/ReactProps/Avatar";
@@ -28,8 +29,9 @@ function App() {
        <MapFilterReduce /> 
       <EmojiMedia />
       <ConditionalRendering />
-      */}
       <Form />
+      */}
+      <DeclarativeImperative />
     </div>
   );
 }

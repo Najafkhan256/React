@@ -1,5 +1,6 @@
 import "./App.css";
-import EmojiMedia from "./components/EmojiMedia/EmojiMedia";
+import ConditionalRendering from "./components/ConditionalRendering/ConditionalRendering";
+// import EmojiMedia from "./components/EmojiMedia/EmojiMedia";
 // import Heading from "./components/Heading";
 // import Avatar from "./components/ReactProps/Avatar";
 // import Fav from "./components/FavFruits";
@@ -23,8 +24,9 @@ function App() {
        <Heading text="Props in React" /> 
        <Avatar img="https://picsum.photos/200/300" />
       <ReactProps /> 
-       <MapFilterReduce /> */}
-      <EmojiMedia />
+       <MapFilterReduce /> 
+      <EmojiMedia />*/}
+      <ConditionalRendering />
     </div>
   );
 }

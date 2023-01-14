@@ -155,3 +155,10 @@ form button {
   margin-top: 15px;
   justify-content: center;
 }
+
+/* TimeWithState */
+.TimeWithState button {
+  width: 100px;
+  padding: 9px 13px;
+  text-align: center;
+}

@@ -1,5 +1,6 @@
 import "./App.css";
-import { Counter } from "./components/Counter/Counter";
+// import { Counter } from "./components/Counter/Counter";
+import { TimeWithState } from "./components/TimeWithState/TimeWithState";
 // import DeclarativeImperative from "./components/DeclarativeImperative/DeclarativeImperative";
 // import ConditionalRendering from "./components/ConditionalRendering/ConditionalRendering";
 // import Form from "./components/ConditionalRendering/Form";
@@ -32,8 +33,9 @@ function App() {
       <ConditionalRendering />
       <Form />
       <DeclarativeImperative />
-      */}
       <Counter />
+      */}
+      <TimeWithState />
     </div>
   );
 }

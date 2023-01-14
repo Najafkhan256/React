@@ -143,3 +143,15 @@ form button {
   width: 250px;
   font-size: 18px;
 }
+/* Counter style start here */
+
+.counter h2 {
+  font-size: 22px;
+}
+.counter button {
+  font-size: 22px;
+  display: flex;
+  width: 100px;
+  margin-top: 15px;
+  justify-content: center;
+}

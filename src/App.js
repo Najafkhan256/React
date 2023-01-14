@@ -1,5 +1,6 @@
 import "./App.css";
-import DeclarativeImperative from "./components/DeclarativeImperative/DeclarativeImperative";
+import { Counter } from "./components/Counter/Counter";
+// import DeclarativeImperative from "./components/DeclarativeImperative/DeclarativeImperative";
 // import ConditionalRendering from "./components/ConditionalRendering/ConditionalRendering";
 // import Form from "./components/ConditionalRendering/Form";
 // import EmojiMedia from "./components/EmojiMedia/EmojiMedia";
@@ -30,8 +31,9 @@ function App() {
       <EmojiMedia />
       <ConditionalRendering />
       <Form />
-      */}
       <DeclarativeImperative />
+      */}
+      <Counter />
     </div>
   );
 }

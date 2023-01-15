@@ -1,6 +1,7 @@
 import "./App.css";
+import ArrayDestructuring from "./components/ArrayDestructuring/ArrayDestructuring";
 // import { Counter } from "./components/Counter/Counter";
-import { TimeWithState } from "./components/TimeWithState/TimeWithState";
+// import { TimeWithState } from "./components/TimeWithState/TimeWithState";
 // import DeclarativeImperative from "./components/DeclarativeImperative/DeclarativeImperative";
 // import ConditionalRendering from "./components/ConditionalRendering/ConditionalRendering";
 // import Form from "./components/ConditionalRendering/Form";
@@ -34,8 +35,9 @@ function App() {
       <Form />
       <DeclarativeImperative />
       <Counter />
-      */}
       <TimeWithState />
+      */}
+      <ArrayDestructuring />
     </div>
   );
 }

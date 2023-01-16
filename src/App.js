@@ -1,6 +1,7 @@
 import "./App.css";
 // import ArrayDestructuring from "./components/ArrayDestructuring/ArrayDestructuring";
-import EventHandling from "./components/EventHandling/EventHandling";
+// import EventHandling from "./components/EventHandling/EventHandling";
+import Forms from "./components/Forms/Forms";
 // import { Counter } from "./components/Counter/Counter";
 // import { TimeWithState } from "./components/TimeWithState/TimeWithState";
 // import DeclarativeImperative from "./components/DeclarativeImperative/DeclarativeImperative";
@@ -38,8 +39,9 @@ function App() {
       <Counter />
       <TimeWithState />
       <ArrayDestructuring />
-      */}
       <EventHandling />
+      */}
+      <Forms />
     </div>
   );
 }

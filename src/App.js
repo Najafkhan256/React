@@ -1,5 +1,6 @@
 import "./App.css";
-import ArrayDestructuring from "./components/ArrayDestructuring/ArrayDestructuring";
+// import ArrayDestructuring from "./components/ArrayDestructuring/ArrayDestructuring";
+import EventHandling from "./components/EventHandling/EventHandling";
 // import { Counter } from "./components/Counter/Counter";
 // import { TimeWithState } from "./components/TimeWithState/TimeWithState";
 // import DeclarativeImperative from "./components/DeclarativeImperative/DeclarativeImperative";
@@ -36,8 +37,9 @@ function App() {
       <DeclarativeImperative />
       <Counter />
       <TimeWithState />
-      */}
       <ArrayDestructuring />
+      */}
+      <EventHandling />
     </div>
   );
 }

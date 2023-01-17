@@ -1,6 +1,7 @@
 import "./App.css";
+import SpreadOperator from "./components/SpreadOperator/SpreadOperator";
 // import ComplexStateForm from "./components/Forms/ComplexStateForm";
-import ComplexStateFormTwo from "./components/Forms/ComplexStateFormTwo";
+// import ComplexStateFormTwo from "./components/Forms/ComplexStateFormTwo";
 // import ArrayDestructuring from "./components/ArrayDestructuring/ArrayDestructuring";
 // import EventHandling from "./components/EventHandling/EventHandling";
 // import Forms from "./components/Forms/Forms";
@@ -44,8 +45,9 @@ function App() {
       <EventHandling />
       <Forms />
       <ComplexStateForm />
-      */}
       <ComplexStateFormTwo />
+      */}
+      <SpreadOperator />
     </div>
   );
 }

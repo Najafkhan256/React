@@ -1,12 +1,12 @@
-const Favourite = ["Noodles", "Fruits", "Dry Fruits", "Walking", "Talking"];
+// const Fruit = ["Noodles", "Fruits", "Dry Fruits", "Walking", "Talking"];
 
-function FavFruits() {
+function Fav({ Fruit }) {
   return (
     <ul>
-      {Favourite.map((fruit, index) => {
+      {Fruit.map((fruit, index) => {
         return <li key={index}>{fruit}</li>;
       })}
     </ul>
   );
 }
-export default FavFruits;
+export default Fav;

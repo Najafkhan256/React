@@ -1,5 +1,7 @@
 import "./App.css";
-import SpreadOperator from "./components/SpreadOperator/SpreadOperator";
+import TodoAppVOne from "./components/TodoAppVOne/TodoAppVOne";
+// import LiftingStateUp from "./components/LiftingStateUp/LiftingStateUp";
+// import SpreadOperator from "./components/SpreadOperator/SpreadOperator";
 // import ComplexStateForm from "./components/Forms/ComplexStateForm";
 // import ComplexStateFormTwo from "./components/Forms/ComplexStateFormTwo";
 // import ArrayDestructuring from "./components/ArrayDestructuring/ArrayDestructuring";
@@ -46,8 +48,10 @@ function App() {
       <Forms />
       <ComplexStateForm />
       <ComplexStateFormTwo />
-      */}
       <SpreadOperator />
+      <LiftingStateUp />
+      */}
+      <TodoAppVOne />
     </div>
   );
 }

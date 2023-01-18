@@ -1,13 +1,27 @@
 import React from "react";
+import { Contacts } from "../../contacts";
+import Avatar from "./Avatar";
+import Detail from "./Detail";
 
+function createdContact(contact) {
+  return (
+    <Card
+      className={contact.className}
+      name={contact.name}
+      img={contact.img}
+      tel={contact.phone}
+      email={contact.email}
+    />
+  );
+}
 function Card(props) {
-  //   console.log(props);
   return (
     <div className={`card ${props.className}`}>
-      <h3>{props.name}</h3>
-      <img src={props.img} alt={props.name} />
-      <p>{props.tel}</p>
-      <p>{props.email}</p>
+      <div className="top">
+        <h3>{props.name}</h3>
+        <Avatar img={props.img} />
+      </div>
+      <Detail tel={props.tel} email={props.email} />
     </div>
   );
 }
@@ -15,28 +29,8 @@ function Card(props) {
 function ReactProps() {
   return (
     <div>
-      <h1>My Contacts</h1>
-      <Card
-        className="first-card"
-        name="Najaf Khan"
-        img="/images/najafkhan.png"
-        tel="+123 456 789"
-        email="example@gmail.com"
-      />
-      <Card
-        className="second-card"
-        name="Annus Khan"
-        img="/images/najafkhan.png"
-        tel="+123 456 789"
-        email="example@gmail.com"
-      />
-      <Card
-        className="third-card"
-        name="Rayyan Khan"
-        img="/images/najafkhan.png"
-        tel="+123 456 789"
-        email="example@gmail.com"
-      />
+      <h1 className="contact-title">My Contacts</h1>
+      {Contacts.map(createdContact)}
     </div>
   );
 }

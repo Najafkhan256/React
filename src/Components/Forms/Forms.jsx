@@ -27,6 +27,7 @@ const Forms = () => {
           onChange={handleChange}
           value={name}
           placeholder="What's Your Name"
+          autoFocus="true"
         />
         <button
           style={{ backgroundColor: isMouseOver ? "black" : "white" }}

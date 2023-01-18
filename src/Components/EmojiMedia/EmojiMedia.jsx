@@ -12,6 +12,10 @@ import Entry from "./Entry";
 } */
 
 function EmojiMedia() {
+  const emojiMeaning = EmojiData.map((emojiContent) => {
+    return emojiContent.content.substring(0, 70).concat("... Read more");
+  });
+  console.log(emojiMeaning);
   return (
     <>
       <h1>Emoji Media</h1>

@@ -1,28 +1,28 @@
 // const numArr = [3, 55, 6, 2, 44, 9];
 
 function MapFilterReduce() {
-  /*   // Map:======================
-  function newMapArr(x) {
+  // Map:======================
+  /*const newMapArr = (x) => {
     return x * 2;
-  }
-  const mapArr = numArr.map(newMapArr);
+  };
+ const mapArr = numArr.map(newMapArr);
   console.log(mapArr); */
 
   // ForEach:===========================
   /*   const newForArr = [];
-  function newForEachArr(x) {
+  const newForEachArr = (x) => {
     return newForArr.push(x * 3);
   }
   numArr.forEach(newForEachArr);
   console.log(newForArr); */
 
   // Filter:=============================
-  /*   const newArr = numArr.filter(function (num) {
+  /*   const newArr = numArr.filter( (num) => {
     return num > 10;
   });
   console.log(newArr); */
   /*   const newArr = [];
-  numArr.forEach(function (num) {
+  numArr.forEach( (num) => {
     if (num < 10) {
       return newArr.push(num);
     }
@@ -34,24 +34,25 @@ function MapFilterReduce() {
 
   //  with forEach method====================
   /*   var newNumber = 0;
-  numArr.forEach(function (currentNumber) {
+  numArr.forEach( (currentNumber) => {
     return (newNumber = newNumber + currentNumber);
+    return (newNumber += currentNumber);
   });
   console.log(newNumber); */
-  /*   const newNumber = numArr.reduce(function (acc, curr) {
+  /*   const newNumber = numArr.reduce( (acc, curr) => {
     return acc + curr;
   });
   console.log(newNumber); */
 
   //   Find:=============================
   //   const numArr = [3, 55, 6, 2, 44, 9];
-  /*  const newNumber = numArr.find(function (num) {
+  /*  const newNumber = numArr.find( (num) =>{
     return num > 10;
   });
   console.log(newNumber); */
 
   // findIndex
-  /*   const newNumber = numArr.findIndex(function (num) {
+  /*   const newNumber = numArr.findIndex((num) => {
     return num > 10;
   });
   console.log(newNumber); */

@@ -1,5 +1,6 @@
 import "./App.css";
-import TodoAppVOne from "./components/TodoAppVOne/TodoAppVOne";
+import Hoc from "./components/HOC/Hoc";
+// import TodoAppVOne from "./components/TodoAppVOne/TodoAppVOne";
 // import LiftingStateUp from "./components/LiftingStateUp/LiftingStateUp";
 // import SpreadOperator from "./components/SpreadOperator/SpreadOperator";
 // import ComplexStateForm from "./components/Forms/ComplexStateForm";
@@ -50,8 +51,9 @@ function App() {
       <ComplexStateFormTwo />
       <SpreadOperator />
       <LiftingStateUp />
-      */}
       <TodoAppVOne />
+      */}
+      <Hoc />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import "./App.css";
-import Hoc from "./components/HOC/Hoc";
+// import Hoc from "./components/HOC/Hoc";
+import FinalCom from "./components/ReactContext/FinalCom";
 // import TodoAppVOne from "./components/TodoAppVOne/TodoAppVOne";
 // import LiftingStateUp from "./components/LiftingStateUp/LiftingStateUp";
 // import SpreadOperator from "./components/SpreadOperator/SpreadOperator";
@@ -52,8 +53,9 @@ function App() {
       <SpreadOperator />
       <LiftingStateUp />
       <TodoAppVOne />
-      */}
       <Hoc />
+      */}
+      <FinalCom />
     </div>
   );
 }

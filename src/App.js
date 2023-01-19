@@ -1,7 +1,7 @@
 import "./App.css";
 // import Hoc from "./components/HOC/Hoc";
-import FinalCom from "./components/ReactContext/FinalCom";
-// import TodoAppVOne from "./components/TodoAppVOne/TodoAppVOne";
+// import FinalCom from "./components/ReactContext/FinalCom";
+import TodoAppVOne from "./components/TodoAppVOne/TodoAppVOne";
 // import LiftingStateUp from "./components/LiftingStateUp/LiftingStateUp";
 // import SpreadOperator from "./components/SpreadOperator/SpreadOperator";
 // import ComplexStateForm from "./components/Forms/ComplexStateForm";
@@ -52,10 +52,10 @@ function App() {
       <ComplexStateFormTwo />
       <SpreadOperator />
       <LiftingStateUp />
-      <TodoAppVOne />
       <Hoc />
-      */}
       <FinalCom />
+      */}
+      <TodoAppVOne />
     </div>
   );
 }

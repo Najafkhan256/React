@@ -1,5 +1,6 @@
 import "./App.css";
-import HideAndShow from "./components/HideAndShow/HideAndShow";
+// import HideAndShow from "./components/HideAndShow/HideAndShow";
+import LifeCycleMethods from "./components/LifeCycleMethods/LifeCycleMethods";
 // import Hoc from "./components/HOC/Hoc";
 // import FinalCom from "./components/ReactContext/FinalCom";
 // import TodoAppVOne from "./components/TodoAppVOne/TodoAppVOne";
@@ -56,8 +57,9 @@ function App() {
       <Hoc />
       <FinalCom />
       <TodoAppVOne />
-      */}
       <HideAndShow />
+      */}
+      <LifeCycleMethods />
     </div>
   );
 }

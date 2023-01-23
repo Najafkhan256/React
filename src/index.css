@@ -218,13 +218,13 @@ body {
 }
 
 button {
-  padding: 0;
-  border: none;
+  padding: 12px;
+  border: 2px solid gray;
   font-family: "Architects Daughter", cursive;
   text-decoration: none;
-  padding-bottom: 3px;
   border-radius: 5px;
   background-color: #ffeaa7;
+  text-transform: uppercase;
 }
 button span {
   background: #f1f5f8;

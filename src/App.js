@@ -1,5 +1,7 @@
 import "./App.css";
-import CompWillUnmount from "./components/CompWillUnmount/CompWillUnmount";
+import Forms from "./components/FormsHandling/Forms";
+// import UseEffectHook from "./components/Hooks/UseEffectHook";
+// import CompWillUnmount from "./components/CompWillUnmount/CompWillUnmount";
 // import CompDidUpdate from "./components/LifeCycleMethods/CompDidUpdate";
 // import HideAndShow from "./components/HideAndShow/HideAndShow";
 // import LifeCycleMethods from "./components/LifeCycleMethods/LifeCycleMethods";
@@ -62,8 +64,10 @@ function App() {
       <HideAndShow />
       <LifeCycleMethods />
       <CompDidUpdate />
-      */}
       <CompWillUnmount />
+      <UseEffectHook />
+      */}
+      <Forms />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import "./App.css";
-import CompDidUpdate from "./components/LifeCycleMethods/CompDidUpdate";
+import CompWillUnmount from "./components/CompWillUnmount/CompWillUnmount";
+// import CompDidUpdate from "./components/LifeCycleMethods/CompDidUpdate";
 // import HideAndShow from "./components/HideAndShow/HideAndShow";
 // import LifeCycleMethods from "./components/LifeCycleMethods/LifeCycleMethods";
 // import Hoc from "./components/HOC/Hoc";
@@ -60,8 +61,9 @@ function App() {
       <TodoAppVOne />
       <HideAndShow />
       <LifeCycleMethods />
-      */}
       <CompDidUpdate />
+      */}
+      <CompWillUnmount />
     </div>
   );
 }

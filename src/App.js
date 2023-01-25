@@ -1,5 +1,6 @@
 import "./App.css";
-import Forms from "./components/FormsHandling/Forms";
+import FormsVTwo from "./components/FormsHandling/FormsVTwo";
+// import Forms from "./components/FormsHandling/Forms";
 // import UseEffectHook from "./components/Hooks/UseEffectHook";
 // import CompWillUnmount from "./components/CompWillUnmount/CompWillUnmount";
 // import CompDidUpdate from "./components/LifeCycleMethods/CompDidUpdate";
@@ -66,8 +67,9 @@ function App() {
       <CompDidUpdate />
       <CompWillUnmount />
       <UseEffectHook />
-      */}
       <Forms />
+      */}
+      <FormsVTwo />
     </div>
   );
 }

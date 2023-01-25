@@ -239,3 +239,45 @@ li {
   position: relative;
   padding: 0.5rem;
 }
+
+/* form with hooks style */
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+form input {
+  padding: 12px;
+  border: 2px solid gray;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #ffeaa7;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+select {
+  padding: 12px;
+  border: 2px solid gray;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #ffeaa7;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.developer {
+  display: inline-flex;
+  align-items: center;
+}
+.developer p {
+  padding-right: 15px;
+}
+.radio {
+  display: flex;
+  align-items: center;
+}
+input[type="radio"] {
+  margin-bottom: 0;
+}

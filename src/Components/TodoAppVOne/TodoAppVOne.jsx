@@ -31,6 +31,10 @@ const TodoAppVOne = () => {
     setInputText("");
   }
 
+  /**
+   * The deleteItem function takes in an id as a parameter and then sets the todos state to the
+   * previous items minus the item with the index that matches the id.
+   */
   function deleteItem(id) {
     setTodos((prevItems) => {
       return prevItems.filter((item, index) => {

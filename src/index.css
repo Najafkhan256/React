@@ -1,9 +1,9 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/*
 body {
   padding: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -247,7 +247,7 @@ form {
   flex-direction: column;
   width: 400px;
 }
-form input {
+input {
   padding: 12px;
   border: 2px solid gray;
   font-family: "Architects Daughter", cursive;
@@ -255,7 +255,18 @@ form input {
   border-radius: 5px;
   background-color: #ffeaa7;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 100%;
+}
+p {
+  text-align: left;
+  color: red;
+}
+form button {
+  margin-top: 20px;
+}
+button {
+  margin-top: 20px;
 }
 select {
   padding: 12px;

@@ -12,19 +12,17 @@ function Counter() {
 
 function HighOrderRedComp(props) {
   return (
-    <div>
-      <h2 style={{ backgroundColor: "red", width: "100px" }}>
-        <props.comp />
-      </h2>
+    <div style={{ backgroundColor: "red", width: "100px" }}>
+      <props.comp />
     </div>
   );
 }
 function HighOrderGreenComp(props) {
   return (
     <div>
-      <h2 style={{ backgroundColor: "green", width: "100px" }}>
+      <div style={{ backgroundColor: "green", width: "100px" }}>
         <props.comp />
-      </h2>
+      </div>
     </div>
   );
 }

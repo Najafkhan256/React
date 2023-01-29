@@ -1,5 +1,6 @@
 import "./App.css";
-import ValidationOne from "./components/FormValidation/ValidationOne";
+import ListingWithMap from "./components/ListingWithMap/ListingWithMap";
+// import ValidationOne from "./components/FormValidation/ValidationOne";
 // import FormsVTwo from "./components/FormsHandling/FormsVTwo";
 // import Forms from "./components/FormsHandling/Forms";
 // import UseEffectHook from "./components/Hooks/UseEffectHook";
@@ -70,8 +71,9 @@ function App() {
       <UseEffectHook />
       <Forms />
       <FormsVTwo />
-      */}
       <ValidationOne />
+      */}
+      <ListingWithMap />
     </div>
   );
 }
